@@ -10,8 +10,8 @@ npm install lerna -g
 mkdir lerna & cd lerna
 lerna init
 ### 添加package
-mkdir lerna-module-1 & cd lerna-module-1 & npm init -y 
-mkdir lerna-module-2 & cd lerna-module-2 & npm init -y
+mkdir lerna-module-1 & cd lerna-module-1 & npm init -y </br>
+mkdir lerna-module-2 & cd lerna-module-2 & npm init -y </br>
 lerna add lerna-module-1 --scope lerna-module-2
 ### clean
 lerna clean
@@ -22,8 +22,8 @@ lerna ls
 ### run
 lerna run --scope lerna-module-1 test
 ### exec
-lerna exec --scope lerna-module-1 -- ls
-lerna exec --scope lerna-module-1 -- rm -rf ./node_modules
+lerna exec --scope lerna-module-1 -- ls</br>
+lerna exec --scope lerna-module-1 -- rm -rf ./node_modules</br>
 
 
 
